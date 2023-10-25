@@ -11,9 +11,9 @@
       <div id="form-frame">
         <form action="" id="form">
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" required />
+          <input type="email" name="email" id="email" />
           <label for="country">Country</label>
-          <select name="country" required>
+          <select name="country" id="country">
             <option value="FR">France</option>
             <option value="DE">Germany</option>
             <option value="SP">Spain</option>
@@ -26,17 +26,16 @@
             name="zip"
             id="zip"
             title="Enter a Zip or Post code"
-            required
           />
           <label for="password">Password</label>
-          <input type="password" name="password" id="password" required />
+          <input type="password" name="password" id="password" />
           <label for="password-confirm">Password Confirmation</label>
           <input
             type="password"
             name="password-confirm"
             id="password-confirm"
-            required
           />
+          <button type="submit" id="submit">Submit</button>
         </form>
       </div>
     </div>

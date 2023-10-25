@@ -1,45 +1,66 @@
 * {
-    box-sizing: border-box;
-    color: blanchedalmond;
+  box-sizing: border-box;
+  color: blanchedalmond;
+  font-size: large;
 }
 
-html, body {
-    padding: 0;
-    margin: 0;
-    background-color: rgb(33,33,33);
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(33, 33, 33);
 }
 
 #content {
-    display: grid;
-    margin: 0;
-    padding: 0;
-    justify-items: center;
-    align-items: center;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  justify-items: center;
+  align-items: center;
 }
 
 #form-frame {
-    margin: 20px;
-    padding: 10px;
-    border: 2px solid rebeccapurple;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid rebeccapurple;
+  background-color: rgb(33, 22, 33);
 }
 
 #form {
-    display: grid;
-    justify-items: center;
-    align-items: center; 
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
 label {
-    padding: 5px;
-    margin: 5px;
-    margin-bottom: 1px;
-    padding-bottom: 1px;
+  padding: 5px;
+  margin: 5px;
+  margin-top: 15px;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+  /* border-top: 1px rebeccapurple solid; */
 }
 
 input {
-    background-color: rgb(11,11,11);
+  background-color: rgb(11, 11, 11);
 }
 
 select {
-    background-color: rgb(11,11,11);
+  background-color: rgb(11, 11, 11);
+}
+
+input:valid {
+  border-color: gray;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+button[type="submit"] {
+  background-color: rgb(11, 11, 11);
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.5rem;
 }
