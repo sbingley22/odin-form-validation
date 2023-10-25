@@ -1,0 +1,1 @@
+document.querySelector("#form"),document.querySelector("#email"),document.querySelector("#country"),document.querySelector("#zip"),document.querySelector("#password"),document.querySelector("#password-confirm");
