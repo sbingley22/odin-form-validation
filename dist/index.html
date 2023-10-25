@@ -7,7 +7,39 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="content"></div>
+    <div id="content">
+      <div id="form-frame">
+        <form action="" id="form">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required />
+          <label for="country">Country</label>
+          <select name="country" required>
+            <option value="FR">France</option>
+            <option value="DE">Germany</option>
+            <option value="SP">Spain</option>
+            <option value="IT">Italy</option>
+            <option value="UK">United Kingdom</option>
+          </select>
+          <label for="zip">Zip Code</label>
+          <input
+            type="text"
+            name="zip"
+            id="zip"
+            title="Enter a Zip or Post code"
+            required
+          />
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required />
+          <label for="password-confirm">Password Confirmation</label>
+          <input
+            type="password"
+            name="password-confirm"
+            id="password-confirm"
+            required
+          />
+        </form>
+      </div>
+    </div>
     <script src="./main.js"></script>
   </body>
 </html>

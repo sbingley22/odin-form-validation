@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    color: blanchedalmond;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(33,33,33);
+}
+
+#content {
+    display: grid;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+}
+
+#form-frame {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rebeccapurple;
+}
+
+#form {
+    display: grid;
+    justify-items: center;
+    align-items: center; 
+}
+
+label {
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+}
+
+input {
+    background-color: rgb(11,11,11);
+}
+
+select {
+    background-color: rgb(11,11,11);
+}
